@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+table {
+    background-color: white;
+    border-collapse: collapse;
+}
+
+caption {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+th {
+    background-color: #0A1A3F;
+    color: white;
+    padding: 10px;
+}
+
+td {
+    padding: 8px;
+}
+
+tfoot td {
+    font-weight: bold;
+}
+table {
+  margin: auto;              /* centra la tabla */
+  border-collapse: collapse; /* une las rayas */
+  width: 600px;              /* ancho de la tabla */
+}
+
+th, td {
+  border: 1px solid black;   /* las rayitas */
+  padding: 8px;              /* espacio interno */
+  text-align: center;        /* centra el texto */
+}
+
+caption {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
